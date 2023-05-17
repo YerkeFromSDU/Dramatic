@@ -1,0 +1,75 @@
+body{
+    position: relative;
+}
+.audio-title, .sub-title{
+    margin-bottom: 20px;
+}
+.audio, .sub{
+    
+    color: #E43109;
+    font-size: 16px;
+}
+.info-about{
+    position: absolute;
+    top: 15px;
+    left: 146px;
+    top: 634px;
+    z-index: 1000;
+}
+.first-container{
+    padding-top: 20px;
+    margin-left: 25px;
+    position: absolute;
+    width: 1304px;
+    height: 298px;
+    left: 122px;
+    top: 790px;
+    z-index: 11111;
+    background: rgba(11, 15, 22, 0.47);
+    box-shadow: 8px -8px 10px rgba(0, 0, 0, 0.25);
+    -webkit-backdrop-filter: blur(7.5px);
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.trailer, .cast, .cast-name{
+    display: flex;
+    flex-direction: column;
+}
+.cast{
+    width: 838px;
+    
+}
+.cast-card{
+    display: flex;
+    flex-direction: column;
+    margin-right: 52px;
+    margin-top: 10px;
+}
+.cast-card p{
+    line-height: 18px;
+    font-size: 14px;
+}
+.cast-cards{
+    display: flex;
+    align-items: flex-start;
+}
+.role{
+    color: #A9A9A9;
+    
+}
+.more{
+    position: absolute;
+    top: 1148px;
+    left: 148px;
+}
+.posters{
+    padding-top: 14px;
+    width: 1256px;
+    display: flex;
+    justify-content: space-between;
+}
+.space{
+    width: 20px;
+    margin-top: 500px;
+}
