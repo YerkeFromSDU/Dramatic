@@ -1,9 +1,12 @@
 {
+  "homepage": "http://YerkeFromSDU.github.io/Dramatic",
   "name": "dramatic",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -11,6 +14,8 @@
   },
   "dependencies": {
     "@types/react-router-dom": "^5.3.3",
+    "deploy-react": "^2.2.11",
+    "gh-pages": "^5.0.0",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
     "react": "^18.2.0",
